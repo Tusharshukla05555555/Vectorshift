@@ -78,7 +78,7 @@ def is_dag(nodes: List[Node], edges: List[Edge]) -> bool:
 @app.post('/pipelines/parse')
 def parse_pipeline(pipeline_data: PipelineData):
     """
-    Parse the pipeline and return analysis results.
+    Parse the pipeline and return comprehensive analysis results.
     """
     try:
         num_nodes = len(pipeline_data.nodes)
@@ -88,8 +88,15 @@ def parse_pipeline(pipeline_data: PipelineData):
         return {
             "num_nodes": num_nodes,
             "num_edges": num_edges,
-            "is_dag": is_valid_dag
+            "is_dag": is_valid_dag,
+            "status": "success",
+            "message": "Pipeline parsed successfully"
         }
     
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error parsing pipeline: {str(e)}")
+
+@app.get('/health')
+def health_check():
+    """Health check endpoint."""
+    return {"status": "healthy", "service": "VectorShift Pipeline Parser"}
