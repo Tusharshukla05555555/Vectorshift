@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f5f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom React Flow Styles */
+.react-flow__node {
+  font-size: 12px;
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+.react-flow__controls {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.react-flow__minimap {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+/* Draggable Node Styles */
+.customInput {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.llm {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+.customOutput {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.text {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.math {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.filter {
+  background: linear-gradient(135deg, #06b6d4, #0891b2);
+}
+
+.api {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+}
+
+.condition {
+  background: linear-gradient(135deg, #84cc16, #65a30d);
+}
+
+.delay {
+  background: linear-gradient(135deg, #a855f7, #9333ea);
+}
