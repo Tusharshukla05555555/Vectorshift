@@ -15,6 +15,7 @@ import { FilterNode } from './nodes/filterNode';
 import { ApiNode } from './nodes/apiNode';
 import { ConditionNode } from './nodes/conditionNode';
 import { DelayNode } from './nodes/delayNode';
+import { DatabaseNode } from './nodes/databaseNode';
 
 import 'reactflow/dist/style.css';
 
@@ -30,6 +31,7 @@ const nodeTypes = {
   api: ApiNode,
   condition: ConditionNode,
   delay: DelayNode,
+  database: DatabaseNode,
 };
 
 const selector = (state) => ({

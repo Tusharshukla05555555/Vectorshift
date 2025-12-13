@@ -50,6 +50,9 @@ export const PipelineToolbar = () => {
                 <NodeTooltip content="Add delays to your pipeline">
                     <DraggableNode type='delay' label='Delay' />
                 </NodeTooltip>
+                <NodeTooltip content="Database operations and queries">
+                    <DraggableNode type='database' label='Database' />
+                </NodeTooltip>
             </div>
         </div>
     );

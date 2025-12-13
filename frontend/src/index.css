@@ -76,3 +76,7 @@ code {
 .delay {
   background: linear-gradient(135deg, #a855f7, #9333ea);
 }
+
+.database {
+  background: linear-gradient(135deg, #059669, #047857);
+}
