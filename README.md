@@ -2,36 +2,36 @@
 
 A modern, drag-and-drop pipeline builder built with React Flow and FastAPI. This project demonstrates advanced frontend architecture patterns, node abstraction, and real-time pipeline validation.
 
-## 🚀 Features
+##  Features
 
-### ✅ Part 1: Node Abstraction
+###  Part 1: Node Abstraction
 - **BaseNode Component**: Reusable abstraction for all node types
 - **Flexible Configuration**: Easy node creation with inputs, outputs, and fields
 - **Type Safety**: Consistent interface across all node implementations
 - **Scalable Architecture**: Add new nodes with minimal code
 
-### ✅ Part 2: Modern Styling
+###  Part 2: Modern Styling
 - **Professional UI**: Clean, modern design with gradients and shadows
 - **Interactive Elements**: Hover effects and smooth transitions
 - **Responsive Layout**: Flexible toolbar and canvas layout
 - **Visual Hierarchy**: Clear typography and spacing
 - **Tooltips**: Helpful descriptions for each node type
 
-### ✅ Part 3: Enhanced Text Node
+###  Part 3: Enhanced Text Node
 - **Dynamic Sizing**: Auto-resize based on content length
 - **Variable Detection**: Automatic parsing of `{{variableName}}` syntax
 - **Dynamic Handles**: Creates input handles for detected variables
 - **Real-time Updates**: Live variable display and handle generation
 - **Monospace Input**: Better code/template editing experience
 
-### ✅ Part 4: Backend Integration
+###  Part 4: Backend Integration
 - **FastAPI Backend**: Modern Python API with automatic documentation
 - **DAG Validation**: Sophisticated cycle detection algorithm
 - **CORS Support**: Seamless frontend-backend communication
 - **Error Handling**: Comprehensive error reporting and validation
 - **Pipeline Analysis**: Detailed metrics and validation results
 
-## 🎯 Node Types
+##  Node Types
 
 1. **Input** - Data input with configurable types
 2. **Output** - Data output destinations  
@@ -44,7 +44,7 @@ A modern, drag-and-drop pipeline builder built with React Flow and FastAPI. This
 9. **Delay** - Pipeline timing control
 10. **Database** - Database operations and queries
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Frontend
 ```bash
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Node Abstraction Pattern
 The `BaseNode` component provides a flexible foundation for all node types:
@@ -91,7 +91,7 @@ The backend implements a sophisticated DAG validation algorithm:
 - **Node Analysis**: Comprehensive pipeline metrics
 - **Error Reporting**: Detailed validation feedback
 
-## 🎨 Design System
+##  Design System
 
 - **Colors**: Semantic color coding for different node types
 - **Typography**: Clear hierarchy with appropriate font weights
@@ -99,7 +99,7 @@ The backend implements a sophisticated DAG validation algorithm:
 - **Shadows**: Subtle depth with layered shadows
 - **Animations**: Smooth transitions for better UX
 
-## 🔧 Technical Highlights
+##  Technical Highlights
 
 - **React Flow**: Advanced flow-based UI with custom nodes
 - **Zustand**: Lightweight state management
@@ -108,7 +108,7 @@ The backend implements a sophisticated DAG validation algorithm:
 - **CORS**: Cross-origin resource sharing setup
 - **TypeScript-ready**: Structured for easy TS migration
 
-## 📊 Pipeline Analysis
+##  Pipeline Analysis
 
 The system provides comprehensive pipeline analysis:
 - Node and edge counting
@@ -116,7 +116,7 @@ The system provides comprehensive pipeline analysis:
 - Real-time feedback via user-friendly alerts
 - Error handling for malformed pipelines
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - **Undo/Redo**: Command pattern implementation
 - **Node Templates**: Predefined node configurations
@@ -127,4 +127,4 @@ The system provides comprehensive pipeline analysis:
 
 ---
 
-Built with ❤️ for the VectorShift Technical Assessment
+Built for the VectorShift Technical Assessment
